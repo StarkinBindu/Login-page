@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #dd00ff; */
+}
+.loginBox {
+  /* border: 2px solid black; */
+  max-width: 900px;
+  height: 400px;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.desc {
+  width: 60%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+  gap: 2em;
+}
+.frm {
+  width: 40%;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 3em;
+  flex-direction: column;
+  gap: 3em;
+}
+.frm h1 {
+  color: #ee5522;
+}
+#Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+}
+.ipbox input {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(233, 230, 230);
+  outline: none;
+  border: none;
+  width: 250px;
+}
+.ipbox button {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #ee5522;
+}
